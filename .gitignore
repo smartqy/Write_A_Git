@@ -1,0 +1,50 @@
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境文件夹（你创建的是 venv）
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# pip 缓存目录
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoint
+.ipynb_checkpoints/
+
+# VS Code 设置文件夹
+.vscode/
+
+# macOS 系统文件
+.DS_Store
+
+# test coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# MyPy / Pyright / Pyre 类型检查缓存
+.mypy_cache/
+.pytype/
+.pyre/
+
+# pyenv 环境文件
+.python-version
+
+# 项目构建输出
+build/
+dist/
+*.egg-info/
+.eggs/
